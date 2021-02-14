@@ -10,3 +10,7 @@ This script takes 6 arguments:
     direction: 0 for forwards, 1 for backwards, 2 for totally random
     offset randomness: 0 through 10, picks offsets randomly distributed around the playhead (0 is no randomness, and 10 is chaotic)
     pan randomness: 0 through 10, increasing the value increases the probability of random pan
+    
+ Some ideas which i may implement: random pitch with e0x/f0x in the volume column
+ stutter, where there's a probability that sample offsets will be repeated
+ ability  to change step size of playhead (currently hardcoded at 1)
